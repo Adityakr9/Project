@@ -1,0 +1,247 @@
+< !DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player : Music for Everyone</title> 
+     <link rel="icon" href="./assest/logo.png"/>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ProjectStyle.css"/> 
+
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+            </div>
+            <div class="nav-option" >
+                <i class=" fa-solid fa-magnifying-glass"></i>
+                <a href="#" >Search</a>
+            </div>
+            </div>
+            <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option ">
+                    <img src="./assest/library_icon.png"/>                
+                    <a href="#">Your library</a>
+            </div>
+            <div class="icons">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+            <div class="lib-box">
+              <div class="box">
+                <p class="box-p1">Create your first playlist</p>
+                <p class="box-p2">it's easy,we'll help you</p>
+                <button class="badge">Create playlist</button>
+              </div>
+               </div>
+               <div class="lib-box">
+                <div class="box">
+                  <p class="box-p1">Let's find some podcasts to follow</p>
+                  <p class="box-p2">we'll keep you updated on new episode</p>
+                  <button class="badge">Browse podcast</button>
+                </div>
+                 </div>
+               
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="stricky-nav">
+                <div class="nav-icons">
+                    <img src="./assest/backward_icon.png" alt="backward"/> 
+                    <img src="./assest/forward_icon.png"class="hide" alt="forward"/>
+                </div>
+                <div class="stricky-nav-option">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item install-nav"> <i class="fa-regular fa-circle-down " style="margin-left: 0.5rem;" > </i>  Install App </button>
+                    <i class="fa-solid fa-bell nav-item noti-nav"></i>
+                    <i class="fa-solid fa-user nav-item  noti-nav"></i>
+                </div>              
+            </div>
+            <div class="three-control">
+                <button style="background-color: #121212; color: white; border-radius: 1rem;" >All</button>
+                <button style="background-color: #121212; color: white;border-radius: 1rem">Music</button>
+                <button style="background-color: #121212; color: white;border-radius: 1rem">Podcasts</button>
+            </div>
+            
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assest/888.jpeg" class="card-img"/>
+                        <p class="card-title">Daily Remix </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                </div>
+
+                <h2>Made for Aditya Yadav</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assest/day1.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Arjit Singh </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/day2.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Loofi </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/day3.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Rahat Ali Khan </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/day4.jpeg" class="card-img"/>
+                        <p class="card-title">Top Hits-Tamil </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/day5.jpeg" class="card-img"/>
+                        <p class="card-title">Top Hits-Tamil </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/day6.jpeg" class="card-img"/>
+                        <p class="card-title">Top Hits-Tamil </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                   
+                </div>
+
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assest/arjit7.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Arjit Singh </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card2img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Loofi </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card3img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Rahat Ali Khan </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card4img.jpeg" class="card-img"/>
+                        <p class="card-title">Top Hits-Tamil </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                  
+                   
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assest/card1img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Global </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card6img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -India </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card5img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Global </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/ta.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 -Tamil </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                </div>
+
+                <h2>Popular artists</h2>
+                <div class="cards-container artists">
+                    <div class="card">
+                        <img src="./assest/arjit7.jpeg" class="card-img"/>
+                        <p class="card-title">Arjit Singh </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/sid.jpeg" class="card-img"/>
+                        <p class="card-title">Sidhu Moosewala</p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/aramn.jpeg" class="card-img"/>
+                        <p class="card-title">Aarman Khan </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/hon.jpeg" class="card-img"/>
+                        <p class="card-title">Honey Singh </p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/su.jpeg" class="card-img"/>
+                        <p class="card-title">Shubh</p>
+                        <p class="card-info">Your daily upadates of the most played tracks... </p>
+                    </div>
+                  
+                   
+                </div>
+
+              <div class="footer">
+                <div class="line">
+
+                </div>
+              </div>
+            </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./assest/album_picture.jpeg" class="album-imggg"/>
+                <p class="par1" style="margin: 1.5rem;">Daylight</p>
+                
+                <img src="./assest/album_icon1.png"style="margin: 1.4rem ;" style="opacity: 1;" class="album-img" />
+                <img src="./assest/album_icon2.png" class="album-img"/>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                 <img src="./assest/player_icon1.png" class="player-control-icon"/>
+                 <img src="./assest/player_icon2.png" class="player-control-icon"/>
+                 <img src="./assest/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;" />
+                 <img src="./assest/player_icon4.png" class="player-control-icon"/>
+                 <img src="./assest/player_icon5.png" class="player-control-icon"/>
+
+                </div>
+                <div class="play-bar">
+                 <span class="curr-time">00:00</span>
+                 <input type="range" min="0" max="100" class="progress-bar" step="3" />
+                 <span class="total-time">3.55</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="controls-spotiy">
+                    <img src="./assest/controls_icon1.png" height="1px"/>
+                    <img src="./assest/controls_icon3.png"/>
+
+                    <img src="./assest/controls_icon4.png"/>
+                    <img src="./assest/controls_icon5.png" height="1px"/>
+                    <input type="range" min="0" max="100" step="5" class="volume"/>
+
+
+                   
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
